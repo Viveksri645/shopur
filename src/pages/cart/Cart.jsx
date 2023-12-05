@@ -27,7 +27,7 @@ const Cart = () => {
         <div className='checkout'>
           <p> Total Billed Amount: Rs.{totalBill}</p>
           <div className='checkout_btn'>
-            <button style={{margin:'1rem 1.2rem'}} onClick={()=>navigate('/')}> Continue Shopping</button>
+            <button style={{margin:'1rem 1.2rem'}} onClick={()=>navigate('/shopur')}> Continue Shopping</button>
             <button> Proceed To Payment </button>
           </div>
         </div>
@@ -35,7 +35,7 @@ const Cart = () => {
         <p className='empty_cart'>
           <h2>Your Cart is Empty!</h2> 
           <p>Add items to your cart</p>
-          <button onClick={()=>navigate('/home')}> Continue Shopping </button>
+          <button onClick={()=>navigate('/shopur')}> Continue Shopping </button>
         </p>
       }
     </div>
