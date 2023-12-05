@@ -18,7 +18,7 @@ const Cart = () => {
       <div className='cartItems'>
           {Products.map(product => {
               if (cartItems[product.id] !== 0){
-                return <CartDetails details={product}/>;
+                return <CartDetails key={product.id} details={product}/>;
               }
           })}
       </div>
@@ -32,11 +32,11 @@ const Cart = () => {
           </div>
         </div>
         :
-        <p className='empty_cart'>
+        <div className='empty_cart'>
           <h2>Your Cart is Empty!</h2> 
           <p>Add items to your cart</p>
           <button onClick={()=>navigate('/shopur')}> Continue Shopping </button>
-        </p>
+        </div>
       }
     </div>
   )
