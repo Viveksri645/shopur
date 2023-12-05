@@ -10,7 +10,7 @@ const CartDetails = (props) => {
 
   return (
     <div className='cartDetails'>
-        <img src={props.details.productImage} />
+        <img src={props.details.productImage} alt='no-support'/>
         <div className='description cartdescription'>
             <p>
                 <b>{props.details.productName}</b>

@@ -34,26 +34,26 @@ export const Products = [
     },
     {
         id: 5,
-        productName: "IPhone",
+        productName: "LED Strip Light",
         price: "Rupees 999.00 Only/-",
         productImage: product5
     },
     {
         id: 6,
-        productName: "IPhone",
-        price: "Rupees 999.00 Only/-",
+        productName: "Fiz Shirt",
+        price: "Rupees 1999.00 Only/-",
         productImage: product6
     },
     {
         id: 7,
-        productName: "IPhone",
-        price: "Rupees 999.00 Only/-",
+        productName: "T-Shirt",
+        price: "Rupees 1499.00 Only/-",
         productImage: product7
     },
     {
         id: 8,
-        productName: "IPhone",
-        price: "Rupees 999.00 Only/-",
+        productName: "Head-Cap",
+        price: "Rupees 699.00 Only/-",
         productImage: product8
     }
 ]

@@ -35,7 +35,7 @@ const Cart = () => {
         <p className='empty_cart'>
           <h2>Your Cart is Empty!</h2> 
           <p>Add items to your cart</p>
-          <button onClick={()=>navigate('/')}> Continue Shopping </button>
+          <button onClick={()=>navigate('/home')}> Continue Shopping </button>
         </p>
       }
     </div>
