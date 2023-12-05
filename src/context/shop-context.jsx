@@ -23,12 +23,10 @@ export const ShopContextProvider = (props) => {
             if(cartItems[item] > 0) {
                 let itemInfo = Products.filter(product => product.id === Number(item));
                 let price = itemInfo[0].price;
-                console.log(price)
                 price = price.slice(7,price.length-7);
                 totalAmount += (cartItems[item]* Number(price)); 
             }
         }
-        console.log(totalAmount);
         return totalAmount;
     }
 
