@@ -1,0 +1,25 @@
+.shop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+
+@media screen and (min-width: 200px) and (max-width: 320px) {
+    .shop > div >h1 {
+        font-size: 10vw;
+    } 
+
+    .shop{
+        width: 100%;
+        border: 1px solid red;
+    }
+}

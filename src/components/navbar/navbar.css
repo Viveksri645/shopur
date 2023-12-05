@@ -1,0 +1,43 @@
+.navbar{
+    background-color: rgb(43, 32, 32);
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 1rem 0 2rem;
+    color: aliceblue;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items:center;
+}
+
+.links > *{
+    margin: 0 0.5rem 0 0.5rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: aliceblue;
+}
+
+.links > *:hover{
+    transform:scale(0.9);
+    transition:transform 0.5s ease-in-out;
+}
+
+@media screen and (min-width: 200px) and (max-width: 320px) {
+     .links > *{
+        font-size: 1.2rem;
+    }
+    
+    .links > *:hover{
+        transform:scale(0.7);
+        transition:transform 0.5s ease-in-out;
+    }
+
+    .navbar > h1{
+        font-size: 1.5rem;
+    }
+}
